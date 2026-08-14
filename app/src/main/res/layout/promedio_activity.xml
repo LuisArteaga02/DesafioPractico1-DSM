@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="14sp"
+                android:text="@string/text1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textSize="24sp"
+                android:background="@color/btnColor"
+                android:textColor="@color/TextColor"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="@color/btnColor"
+                android:textColor="@color/TextColor"
+                android:text="@string/btnVolver" />
+
+            <!-- TEXTVIEW PARA MOSTRAR EL RESULTADO FINAL -->
+
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="200px"
+                android:hint="@string/lblEstudiante"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etNota1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="30px"
+                android:hint="@string/lblNota1"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etNota2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="30px"
+                android:hint="@string/lblNota2"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etNota3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="30px"
+                android:hint="@string/lblNota3"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etNota4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="30px"
+                android:hint="@string/lblNota4"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etNota5"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="30px"
+                android:hint="@string/lblNota5"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/btnResultado"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="@color/btnColor"
+                android:textColor="@color/TextColor"
+                android:text="@string/text3" />
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/lblResultado0"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
