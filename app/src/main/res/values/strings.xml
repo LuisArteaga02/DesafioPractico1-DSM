@@ -18,4 +18,5 @@
     <string name="lblResultado2">obtuvo un promedio de</string>
     <string name="lblResultado3">y se encuentra</string>
     <string name="lbltext4">Resultados</string>
+    <string name="title_activity_promedio">PromedioActivity</string>
 </resources>

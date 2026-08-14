@@ -13,6 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/btnColor"
             android:orientation="vertical" >
 
 
@@ -20,22 +21,25 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/border_radius"
                 android:lineSpacingExtra="14sp"
+                android:paddingTop="200px"
+                android:paddingBottom="200px"
                 android:text="@string/text1"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="@color/btnColor"
                 android:textSize="24sp"
-                android:background="@color/btnColor"
-                android:textColor="@color/TextColor"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnVolver"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:backgroundTint="@color/btnColor"
-                android:textColor="@color/TextColor"
-                android:text="@string/btnVolver" />
+                android:backgroundTint="@color/TextColor"
+                android:text="@string/btnVolver"
+                android:textColor="@color/btnColor"
+                android:textStyle="bold" />
 
             <!-- TEXTVIEW PARA MOSTRAR EL RESULTADO FINAL -->
 
@@ -44,63 +48,97 @@
                 android:id="@+id/etNombre"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="200px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblEstudiante"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textIsSelectable="true"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNota1"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="20px"
                 android:layout_marginBottom="30px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblNota1"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNota2"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="20px"
                 android:layout_marginBottom="30px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblNota2"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNota3"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="20px"
                 android:layout_marginBottom="30px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblNota3"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNota4"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="20px"
                 android:layout_marginBottom="30px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblNota4"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNota5"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_margin="50px"
                 android:layout_marginTop="20px"
                 android:layout_marginBottom="30px"
+                android:backgroundTint="@color/TextColor"
                 android:hint="@string/lblNota5"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+                android:textStyle="bold" />
 
 
             <Button
                 android:id="@+id/btnResultado"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:backgroundTint="@color/btnColor"
-                android:textColor="@color/TextColor"
-                android:text="@string/text3" />
+                android:backgroundTint="@color/TextColor"
+                android:text="@string/text3"
+                android:textColor="@color/btnColor"
+
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvResultado"
