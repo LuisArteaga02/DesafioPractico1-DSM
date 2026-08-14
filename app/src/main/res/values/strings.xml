@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Ejercicios Desafio Practico</string>
+    <string name="text1">Calculadora de Promedios</string>
+    <string name="text2">Nombre Estudiante</string>
+    <string name="lblNota" formatted="false">Nota %1$d (%2$d%)</string>
+    <string name="text3">Calcular Promedio</string>
+    <string name="lblNotNull">Este campo no puede estar vacio</string>
+    <string name="lblcondicion">La nota debe estar entre 0.0 y 10.0</string>
+    <string name="lblAprobado">Aprobado</string>
+    <string name="lblReprobado">Reprobado</string>
+    <string name="lblResultado">El Estudiante %1$s tiene un promedio de %2$s y ha %3$s.</string>
+    <string name="lbltext4">Resultados</string>
 </resources>

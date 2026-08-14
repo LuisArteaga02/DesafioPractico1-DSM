@@ -24,12 +24,15 @@ class MainActivity : AppCompatActivity() {
 
         btnJ1.setOnClickListener {
             val intent = Intent(this, PromedioActivity::class.java)
+            startActivity(intent)
         }
         btnJ2.setOnClickListener {
             val intent = Intent(this, SalarioActivity::class.java)
+            startActivity(intent)
         }
         btnJ3.setOnClickListener {
             val intent = Intent(this, CalculadoraActivity::class.java)
+            startActivity(intent)
         }
 
 
