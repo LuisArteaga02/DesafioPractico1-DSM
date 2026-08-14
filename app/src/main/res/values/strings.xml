@@ -19,4 +19,6 @@
     <string name="lblResultado3">y se encuentra</string>
     <string name="lbltext4">Resultados</string>
     <string name="title_activity_promedio">PromedioActivity</string>
+    <string name="errCampoVacio">Error el campo esta vacio por favor ingresa un nombre</string>
+    <string name="errNotaNoValida">Nota no valida</string>
 </resources>
