@@ -18,7 +18,21 @@
     <string name="lblResultado2">obtuvo un promedio de</string>
     <string name="lblResultado3">y se encuentra</string>
     <string name="lbltext4">Resultados</string>
+    <string name="SalarioTitulo">Calculadora de salarios de empleado</string>
     <string name="title_activity_promedio">PromedioActivity</string>
     <string name="errCampoVacio">Error el campo esta vacio por favor ingresa un nombre</string>
     <string name="errNotaNoValida">Nota no valida</string>
+    <string name="titleSalario">Calculo de salario</string>
+    <string name="lblNombreEmpleado">Nombre del empleado</string>
+    <string name="lblSalarioBase">Salrio base ($)</string>
+    <string name="btnCalcularSalario">Calcular descuentos</string>
+    <string name="errSalarioInvalido">El salrio debe ser un numero positivo o mayor a 0</string>
+    <string name="lblTituloDesglose">Desglose Salarial</string>
+    <string name="lblResEmpleado">Empleado: </string>
+    <string name="lblResBruto">Salario Bruto: </string>
+    <string name="lblResIsss" formatted="false">Descuento ISSS (3%): -$</string>
+    <string name="lblResAfp" formatted="false">Descuento AFP (7.25%): -$</string>
+    <string name="lblResRenta">Retencion Renta -$</string>
+    <string name="lblResTotalDescuentos">Toal Descuentos: -$</string>
+    <string name="lblResNeto">Salario Neto a pagar: $</string>
 </resources>

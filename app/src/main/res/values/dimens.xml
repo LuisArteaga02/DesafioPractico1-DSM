@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_screen">16dp</dimen>
+    <dimen name="margin_component">12dp</dimen>
+    <dimen name="margin_top_section">20dp</dimen>
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="btn_height">54dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+
+
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_result">18sp</dimen>
+</resources>
