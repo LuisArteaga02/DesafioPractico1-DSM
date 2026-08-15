@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/btnColor">
+    android:background="@color/backgroundResult">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="@dimen/padding_screen">
+           >
 
 
             <TextView
@@ -25,11 +25,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/titleCalculadora"
                 android:textAlignment="center"
-                android:padding="@dimen/padding_screen"
-                android:background="@drawable/border_radius"
-                android:textColor="@color/btnColor"
+                android:lineSpacingExtra="14sp"
+                android:paddingTop="200px"
+                android:paddingBottom="90px"
+                android:background="@drawable/border_radius3"
+                android:textColor="@color/color0"
                 android:textSize="@dimen/text_size_title"
-                android:layout_margin="@dimen/margin_component"
+
                 android:textStyle="bold" />
 
 
@@ -52,8 +54,8 @@
                 android:hint="@string/lblNumero1"
                 android:inputType="numberSigned|numberDecimal"
                 android:textAlignment="center"
-                android:textColor="@color/TextColor"
-                android:textColorHint="@color/TextColor"
+                android:textColor="@color/color4"
+                android:textColorHint="@color/color4"
                 android:layout_margin="@dimen/margin_component"
                 android:textStyle="bold" />
 
@@ -66,8 +68,8 @@
                 android:hint="@string/lblNumero2"
                 android:inputType="numberSigned|numberDecimal"
                 android:textAlignment="center"
-                android:textColor="@color/TextColor"
-                android:textColorHint="@color/TextColor"
+                android:textColor="@color/color5"
+                android:textColorHint="@color/color5"
                 android:layout_margin="@dimen/margin_component"
                 android:textStyle="bold" />
 
@@ -85,7 +87,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color1"
                     app:icon="@drawable/suma"
                     android:layout_margin="@dimen/margin_component"
                     app:iconGravity="textStart" />
@@ -96,7 +98,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginHorizontal="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color2"
                     app:icon="@drawable/minus_svgrepo_com"
                     android:layout_margin="@dimen/margin_component"
                     app:iconGravity="textStart" />
@@ -107,7 +109,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color3"
                     app:icon="@drawable/multiply_1_svgrepo_com"
                     android:layout_margin="@dimen/margin_component"
                     app:iconGravity="textStart" />
@@ -127,7 +129,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color6"
                     android:text="/"
                     android:layout_margin="@dimen/margin_component"
                     android:textSize="20sp" />
@@ -138,7 +140,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginHorizontal="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color6"
                     android:text="xʸ"
                     android:layout_margin="@dimen/margin_component"
                     android:textSize="18sp" />
@@ -149,7 +151,7 @@
                     android:layout_height="@dimen/btn_height"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color6"
                     android:text="√"
                     android:layout_margin="@dimen/margin_component"
                     android:textSize="20sp" />
@@ -161,12 +163,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_top_section"
-                android:background="@color/btnColor"
+                android:background="@drawable/border_radius3"
                 android:elevation="2dp"
                 android:padding="@dimen/padding_card"
                 android:text="@string/lblResultadoCalc"
                 android:textAlignment="center"
-                android:textColor="@color/TextColor"
+                android:textColor="@color/color0"
                 android:textSize="@dimen/text_size_result"
                 android:layout_margin="@dimen/margin_component"
                 android:textStyle="bold" />
@@ -184,9 +186,10 @@
                     android:id="@+id/btnVerHistorial"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_margin="@dimen/margin_top_section"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color6"
                     android:text="@string/btnGuardarHistorial"
 
                     android:textColor="@color/btnColor" />
@@ -195,11 +198,12 @@
                     android:id="@+id/btnExportarDescargas"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_margin="@dimen/margin_top_section"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/TextColor"
+                    android:backgroundTint="@color/color6"
                     android:text="@string/btnExportarDescargas"
-                    android:textColor="@color/btnColor" />
+                    android:textColor="@color/color0" />
             </LinearLayout>
 
 
@@ -209,10 +213,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_component"
                 android:layout_marginBottom="@dimen/margin_top_section"
-                android:background="@drawable/border_radius"
+                android:background="@drawable/border_radius3"
                 android:padding="@dimen/padding_card"
                 android:text="@string/lblHistorialTitulo"
-                android:textColor="@color/btnColor"
+                android:textColor="@color/color0"
                 android:layout_margin="@dimen/margin_component"
                 android:textSize="@dimen/text_size_body" />
 

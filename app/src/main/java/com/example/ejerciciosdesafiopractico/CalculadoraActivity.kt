@@ -163,7 +163,7 @@ class CalculadoraActivity : AppCompatActivity() {
 
     private fun guardarOperacionInterna(registro: String) {
         try {
-           
+
             openFileOutput(NOMBRE_ARCHIVO_INTERNO, Context.MODE_APPEND).use { fos ->
                 fos.write("$registro\n".toByteArray())
             }
