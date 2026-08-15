@@ -35,4 +35,28 @@
     <string name="lblResRenta">Retencion Renta -$</string>
     <string name="lblResTotalDescuentos">Toal Descuentos: -$</string>
     <string name="lblResNeto">Salario Neto a pagar: $</string>
+
+    <string name="titleCalculadora">Calculadora</string>
+    <string name="lblNumero1">Numero 1 (O Radiando)</string>
+    <string name="lblNumero2">Numero 2 (O exponente)</string>
+    <string name="btnCalcularOperacion">Calcular</string>
+    <string name="btnGuardarHistorial">Historial</string>
+    <string name="btnExportarDescargas">Esportar a Descargas</string>
+    <string name="lblResultadoCalc">Resultado: </string>
+    <string name="lblHistorialTitulo">Historial de Operaciones:</string>
+    <string name="errNumeroVacio">Por favor ingresa un numero</string>
+    <string name="errDivisionCero">Error: No se puede dividir entre cero</string>
+    <string name="errRaizNegativa">Error: No existe raiz cuadrada real de un negativo</string>
+    <string name="errExportar">Error al exportar el archivo</string>
+    <string name="msgExportadoOk">Historial exportado con exito a carpeta de descargas</string>
+
+    <string-array name="operaciones">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multilicacion</item>
+        <item>Division</item>
+        <item>Exponente</item>
+        <item>Raiz Cuadrada</item>
+
+    </string-array>
 </resources>
