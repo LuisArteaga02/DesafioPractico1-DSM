@@ -35,12 +35,14 @@
                 android:background="@drawable/border_radius"
                 android:lineSpacingExtra="14sp"
                 android:padding="70px"
-                android:text="Primer Desafio Practico DSM"
+                android:text="Primer Desafio Practico DSM CA241136"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display3"
                 android:textColor="@color/btnColor"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
+
 
             <Button
                 android:id="@+id/btnJ1"

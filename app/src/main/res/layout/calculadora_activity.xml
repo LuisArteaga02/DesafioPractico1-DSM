@@ -39,11 +39,12 @@
                 android:id="@+id/btnVolver"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/margin_component"
                 android:layout_marginTop="@dimen/margin_component"
                 android:backgroundTint="@color/TextColor"
                 android:text="@string/btnVolver"
-                android:layout_margin="@dimen/margin_component"
-                android:textColor="@color/btnColor" />
+                android:textColor="@color/btnColor"
+                android:textStyle="bold" />
 
 
             <EditText
@@ -127,34 +128,37 @@
                     android:id="@+id/btnDividir"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_margin="@dimen/margin_component"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/color6"
                     android:text="/"
-                    android:layout_margin="@dimen/margin_component"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnPotencia"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_margin="@dimen/margin_component"
                     android:layout_marginHorizontal="4dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/color6"
                     android:text="xʸ"
-                    android:layout_margin="@dimen/margin_component"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnRaiz"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_margin="@dimen/margin_component"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/color6"
                     android:text="√"
-                    android:layout_margin="@dimen/margin_component"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
 
@@ -192,7 +196,8 @@
                     android:backgroundTint="@color/color6"
                     android:text="@string/btnGuardarHistorial"
 
-                    android:textColor="@color/btnColor" />
+                    android:textColor="@color/btnColor"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnExportarDescargas"
@@ -203,7 +208,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/color6"
                     android:text="@string/btnExportarDescargas"
-                    android:textColor="@color/color0" />
+                    android:textColor="@color/color0"
+                    android:textStyle="bold" />
             </LinearLayout>
 
 
@@ -211,14 +217,15 @@
                 android:id="@+id/tvHistorialContenido"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_component"
                 android:layout_marginTop="@dimen/margin_component"
                 android:layout_marginBottom="@dimen/margin_top_section"
                 android:background="@drawable/border_radius3"
                 android:padding="@dimen/padding_card"
                 android:text="@string/lblHistorialTitulo"
                 android:textColor="@color/color0"
-                android:layout_margin="@dimen/margin_component"
-                android:textSize="@dimen/text_size_body" />
+                android:textSize="@dimen/text_size_body"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

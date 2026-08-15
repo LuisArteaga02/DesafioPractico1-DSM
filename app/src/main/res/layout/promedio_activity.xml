@@ -8,12 +8,16 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+
+        >
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/btnColor"
+            android:paddingBottom="200dp"
             android:orientation="vertical" >
 
 
@@ -148,6 +152,9 @@
                 android:layout_marginBottom="20dp"
                 android:hint="@string/lblResultado0"
                 android:textAlignment="center"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextColor"
+
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>
