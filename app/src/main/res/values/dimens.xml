@@ -6,7 +6,6 @@
     <dimen name="input_height">48dp</dimen>
     <dimen name="btn_height">54dp</dimen>
     <dimen name="padding_card">16dp</dimen>
-    <dimen name="padding_top_title">200px</dimen>
 
     <dimen name="text_size_title">22sp</dimen>
     <dimen name="text_size_body">16sp</dimen>
