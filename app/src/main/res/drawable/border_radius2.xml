@@ -3,7 +3,7 @@
     android:shape="rectangle">
 
     <!-- Color de fondo del elemento -->
-    <solid android:color="@color/btnColor" />
+    <solid android:color="@color/backgroundResult" />
 
     <!-- Radio de las esquinas -->
     <corners android:radius="16dp" />

@@ -4,6 +4,16 @@
     <color name="TextColor">#320C35</color>
 
     <color name="btnColor">#F2EEBF</color>
+
+    <color name="backgroundResult">#001219</color>
+    <color name="Textresult">#9B2226</color>
+    <color name="color0">#E9D8A6</color>
+    <color name="color1">#005F73</color>
+    <color name="color2">#94D2BD</color>
+    <color name="color3">#EE9B00</color>
+    <color name="color4">#CA6702</color>
+    <color name="color5">#BB3E03</color>
+    <color name="color6">#AE2012</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
