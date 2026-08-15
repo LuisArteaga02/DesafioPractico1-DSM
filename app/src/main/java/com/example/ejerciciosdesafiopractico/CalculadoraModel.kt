@@ -22,7 +22,7 @@ class CalculadoraModel {
     }
 
     fun raizCuadrada(a: Double): Double? {
-        if (a < 0.0) return null 
+        if (a < 0.0) return null
         return sqrt(a)
     }
 

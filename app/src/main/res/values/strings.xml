@@ -41,7 +41,7 @@
     <string name="lblNumero2">Numero 2 (O exponente)</string>
     <string name="btnCalcularOperacion">Calcular</string>
     <string name="btnGuardarHistorial">Historial</string>
-    <string name="btnExportarDescargas">Esportar a Descargas</string>
+    <string name="btnExportarDescargas">Exportar a Descargas</string>
     <string name="lblResultadoCalc">Resultado: </string>
     <string name="lblHistorialTitulo">Historial de Operaciones:</string>
     <string name="errNumeroVacio">Por favor ingresa un numero</string>
